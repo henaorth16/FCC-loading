@@ -75,7 +75,6 @@ h1, h2 {
   }
 }
 main {
-  background: radial-gradient(rgba(2, 17, 32, 0.842), rgb(5, 35, 70) 70%);
   min-height: 40vh;
   display: flex;
   justify-content: center;
