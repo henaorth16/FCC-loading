@@ -7,13 +7,14 @@
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>FCC loading</h1>
-   <main id="main">   
+   <h1>FCC loading...</h1>
+   <main id="main">
+      <span></span>   
    </main>
    <div class="inp-cont">
       <div>
          <label for="numOfRect">Count:</label>
-         <input type="number" name="" id="numOfRect" placeholder="Odd number (recommended)">
+         <input type="number" value="5" name="" id="numOfRect" placeholder="Odd number (recommended)">
       </div>
       <div>
          <label for="speed">Speed:</label>
@@ -23,7 +24,7 @@
          <label for="delay">Delay:</label>
          <input type="number" value="200" name="" id="delay" placeholder="in millisecond">
       </div>
-      <button onclick="apply()" id="btn">apply</button>
+      <button type="submit" onclick="apply()" id="btn">Apply</button>
    </div>
    <script src="main.js"></script>
 </body>
